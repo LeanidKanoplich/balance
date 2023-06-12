@@ -1,0 +1,1544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="lt-LT" lang="lt-LT" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+        var link = document.querySelector("link[rel~='icon']");
+        if (link && link.href.includes('e.eureka.lt')) {
+            link.href = link.href.replace('favicon.ico', 'eureka.ico');
+        }
+    });
+</script><title>
+	Buhalterija > Ledger
+</title><meta id="MetaDescription" name="DESCRIPTION" content="Elektroninė apskaita" /><meta id="MetaKeywords" name="KEYWORDS" content="apskaita, buhalterija, elektroninė apskaita" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnn.PasswordStrength.css?cdv=232" type="text/css" rel="stylesheet"/><link href="/Portals/_default/skins/brandworks/skin.css?cdv=232" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=232" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=232" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=232" type="text/javascript"></script><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico?ver=A42B7frNkFa2oVi4F771OQ%3d%3d' type='image/x-icon' /><link href="/WebResource.axd?d=DSgCKnaJlQjR3blN2Xcmmn8UoHsq2hnTTSdOTbl55r4bt7DVlqxo_FKq80fNVdD_v5A3X6actlac4uSuGxFZwFMF_ZF6304kHl4j6bNxQsjcptc_xmgslk7ShnE1&amp;t=636970230480000000" type="text/css" rel="stylesheet" /><link href="/WebResource.axd?d=hcXDZhXiidhx399XNVGlrevWZrJmLY4db8BrIkz65h10AIKQnFof1maGwCSgeGfq8M5C4vTTRZoOYGrB1gMc_Ebi75tryrrJZYwQtXzWc8IKJgsnFKM5BTHiy7Y6O9H8GJumJg2&amp;t=636970230480000000" type="text/css" rel="stylesheet" /><link href="/WebResource.axd?d=-H-7euyzCq0rii-nCb5mtrZr8oWqdLnVhTXG7zmR1DVWC1-51ODSRS9w9m7qiowV3GVlXLl9yPaP6bRYdbr1o0PZaXzz8XBx-QwUCT4u7PeTQBfZNyS3l6fp6FI1&amp;t=636970230480000000" type="text/css" rel="stylesheet" />     
+        
+			    <script type="text/javascript">
+			      var _gaq = _gaq || [];
+			      _gaq.push(['_setAccount', 'UA-2282313-8']);
+			      _gaq.push(['_trackPageview']);
+			 
+			      (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			      })();
+			    </script>
+        
+		  </head>
+<body id="Body">
+    
+    <form name="Form" method="post" action="/Ledger.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="dnn_ctr604_MonetHeader_TabContainer1_ClientState" id="dnn_ctr604_MonetHeader_TabContainer1_ClientState" value="{&quot;ActiveTabIndex&quot;:0,&quot;TabEnabledState&quot;:[true,true],&quot;TabWasLoadedOnceState&quot;:[false,false]}" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV2NEx_GmHjTfSDcsjyS5PnipZJYZZ0ovrJlP1PTuD4iGfVb-PE1&amp;t=637811801229275428" type="text/javascript"></script>
+
+<script language='javascript' type='text/javascript'>  
+                        function ExpandEdit(textbox) {
+                            if (!textbox.startW) { 
+                                textbox.startW = textbox.parentElement.style.width != '' ? textbox.parentElement.style.width : textbox.parentElement.scrollWidth; 
+                            }
+
+                            if (textbox.scrollWidth > textbox.offsetWidth) {
+                                let maxWidth = GetMaxWidth(textbox);
+                                
+                                if(maxWidth > textbox.scrollWidth + 5) {
+                                    textbox.parentElement.style.width = textbox.scrollWidth + 5 + 'px';
+                                }
+                                else {
+                                    textbox.parentElement.style.width = maxWidth + 'px';
+                                }
+                            }
+                        }
+
+                        function GetMaxWidth(textbox) {
+                            let maxWidth = 0;
+                            if(textbox.parentElement.classList.contains('sm')) {
+                                maxWidth = 170;
+                            }
+                            else if(textbox.parentElement.classList.contains('lg')) {
+                                maxWidth = 400;
+                            }
+                            else if(textbox.parentElement.parentElement.classList.contains('admGroup') && textbox.parentElement.parentElement.classList.contains('noLabels')) {
+                                maxWidth = 190;
+                            }
+                            else {
+                                maxWidth = 300;
+                            }
+                            return maxWidth;
+                        }
+                        
+                        function Shrink(textbox) {
+                            if (textbox.startW) {
+                                setTimeout(SetWidthToStartWidth, 2000, textbox);
+                            }
+                        }
+
+                        function ShrinkIfUnfocused(textbox) {
+                            if (textbox.startW && document.activeElement !== textbox) {
+                                setTimeout(SetWidthToStartWidth, 2000, textbox);
+                            }
+                        }
+
+                        function SetWidthToStartWidth(textbox) {
+                            if(textbox.style.width != '') {
+                                textbox.parentElement.style.width = textbox.startW + 'px';
+                            }
+                            else {
+                                textbox.parentElement.style.width = textbox.style.width;
+                            }
+                        }
+                </script><script language='javascript' type='text/javascript'>
+                        function FormatNumber(txt) {
+                            
+                            var num = txt.value;
+                            num = num.trim();
+                            num = num.split(' ').join('');//netinka, nes reikia all, o daro tik viena replace(' ','');
+
+                            if(num.indexOf(',') == -1) //nera kabl. 
+                            {
+                                var numberOfPoints = num.split('.').length-1;
+                                if(numberOfPoints > 1)
+                                {
+                                    num = num.split('.').join('');//replace('.','');
+                                }
+                                else if(numberOfPoints == 1) //vienas taskas, gali skirti 1000 arba vietoj kablelio
+                                {
+                                    //S del svorio vedimo su tasku, kai trys skaiciai po kablelio
+                                    //if(num.split('.').pop().length == 3 ) //gale 3 zenklai - 1000
+                                    //{
+                                    //    num = num.split('.').join('');//replace('.','');
+                                    //}
+                                    //else
+                                    {
+                                        num = num.split('.').join(',');//.replace('.',',');
+                                    }
+                                }
+                                else //nieko
+                                {
+                                    
+                                }
+                            }
+                            else //yra kabl.
+                            {
+                                if(num.indexOf('.') == -1) //nera tasku
+                                {
+                                    if(num.split(',').length > 2 ) //yra keli kableliai
+                                    {
+                                        num = num.split(',').join('');//.replace(',','');
+                                    }
+                                }
+                                else //yra tasku ir kabl.
+                                {
+                                    if(num.indexOf('.') < num.indexOf(',') ) //kablelis po task. - nieko
+                                    {
+                                            num = num.split('.').join('');//replace('.',''); //istrinam taska
+                                    }
+                
+                                    if(num.indexOf('.') > num.indexOf(',') ) //kablelis pries task. 
+                                    {
+                                        num = num.split(',').join('');//.replace(',','');
+                                        num = num.split('.').join(',');//.replace('.',',');
+                                    }
+                                }
+                            }
+
+                            txt.value = num;
+
+                            //txt.value = txt.value.replace('.',',');
+                            //;
+                            //
+                            //x = x.replace(/,([^,]*)$/, '.$1');
+                            //x = x.replace(/\./g, '');
+                    }
+                </script>
+<script src="/ScriptResource.axd?d=nv7asgRUU0s9eB6eNWVNohRH2MrSUV1NcHkeKDsSEpOUfu6COKk_iAh3BzDQIHmzMHiRYrm0Rb_VoVWLt8X3KVRCs3rEMPFlnWCKEhQpzKcdrE48F_GuMzVv1eA1&amp;t=2265eaa7" type="text/javascript"></script>      <script language='javascript' type='text/javascript'>  
+                        function IAmSelected(source, eventArgs) {
+                            var x = source.get_element();
+                            if (x.value.indexOf(String.fromCharCode(9), 0) != -1)
+                                x.value = x.value.substring(0, x.value.indexOf(String.fromCharCode(9), 0)); 
+                            Page_ClientValidate();
+                        }
+
+                        function resetPosition(object, args) {
+                            var input = object._element;
+                            var dropDown = object._completionListElement;
+                            var inputDOMRec = input.getBoundingClientRect();
+                            var dropDownDOMRec = dropDown.getBoundingClientRect();
+
+                            if(inputDOMRec.top > dropDownDOMRec.top) {
+                                dropDown.style.bottom = $(window).height() - window.pageYOffset - inputDOMRec.top + 'px';
+                                dropDown.style.top = 'unset';
+                            }
+                            else {
+                                dropDown.style.bottom = 'unset';
+                            }
+                        }
+
+                        ////lookup visada butu po apacia, turetu tikti, bet negerai gaunasi
+                        //function resetPosition(object, args) {
+                        //    var tb = object._element;
+                        //    var tbposition = findPositionWithScrolling(tb);
+                        //    var xposition = tbposition[0];
+                        //    var yposition = tbposition[1] + tb.clientHeight; // 22 textbox height 
+                        //    var ex = object._completionListElement;
+                        //    if (ex)
+                        //        $common.setLocation(ex, new Sys.UI.Point(xposition, yposition));
+                        //        //NE $common.setLocation(ex, new Sys.UI.Point(40, 20)); //fiksuoju
+                        //        //NE $common.setLocation(ex, new Sys.UI.Point(xposition-368, yposition-136)); //fiksuoju
+                        //}
+                        //function findPositionWithScrolling(oElement) {
+                        //    if (typeof (oElement.offsetParent) != 'undefined') {
+                        //        var originalElement = oElement;
+                        //        for (var posX = 0, posY = 0; oElement; oElement = oElement.offsetParent) {
+                        //            posX += oElement.offsetLeft;
+                        //            posY += oElement.offsetTop;
+                        //            if (oElement != originalElement && oElement != document.body && oElement != document.documentElement) {
+                        //                posX -= oElement.scrollLeft;
+                        //                posY -= oElement.scrollTop;
+                        //            }
+                        //        }
+                        //        return [posX, posY];
+                        //    } else {
+                        //        return [oElement.x, oElement.y];
+                        //    }
+                        //}
+                </script><script language='javascript' type='text/javascript'>  
+                        function autoGrowTextArea(textarea) {
+                          if (textarea.scrollHeight > textarea.clientHeight) {
+                            textarea.style.height = `${textarea.scrollHeight + 2}px`;
+                          }
+                        }
+                    </script> 
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"lt-LT","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"Lt","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402293599999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"-","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy \u0027m.\u0027 MMMM d \u0027d.\u0027 HH:mm:ss","LongDatePattern":"yyyy \u0027m.\u0027 MMMM d \u0027d.\u0027","LongTimePattern":"HH:mm:ss","MonthDayPattern":"MMMM d \u0027d\u0027.","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy-MM-dd","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy \u0027m.\u0027 MMMM","AbbreviatedDayNames":["sk","pr","an","tr","kt","pn","št"],"ShortestDayNames":["Sk","Pr","An","Tr","Kt","Pn","Št"],"DayNames":["sekmadienis","pirmadienis","antradienis","trečiadienis","ketvirtadienis","penktadienis","šeštadienis"],"AbbreviatedMonthNames":["saus.","vas.","kov.","bal.","geg.","birž.","liep.","rugp.","rugs.","spal.","lapkr.","gruod.",""],"MonthNames":["sausis","vasaris","kovas","balandis","gegužė","birželis","liepa","rugpjūtis","rugsėjis","spalis","lapkritis","gruodis",""],"IsReadOnly":false,"NativeCalendarName":"Grigaliaus kalendorius","AbbreviatedMonthGenitiveNames":["saus.","vas.","kov.","bal.","geg.","birž.","liep.","rugp.","rugs.","spal.","lapkr.","gruod.",""],"MonthGenitiveNames":["sausio","vasario","kovo","balandžio","gegužės","birželio","liepos","rugpjūčio","rugsėjo","spalio","lapkričio","gruodžio",""]},"eras":[1,"po Kr.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Io5RcQMragLTsI1konnn21MIHIY3N7-MZcZPWEUknVenLDWXTizTdLU91nKW2yK0j25X7w00TvNvij60Y_ROXEGTDF2NlWiNxERAhF3eIzXnnZj-WofEx2yfsfaLw2&amp;t=ffffffffaa493ab8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJIih8xP4x1j_zXxfc8hJIXxa7JmsyY3gWqU4zxdOKjSQcMMUmhTC2wDWJMdXV0TbWfkBKF8SVcOPw0zXKWz8sLFu08o49whJA4SwRUcJ1GgNOiuZ0D_Jus7s-OrJygqoVh6NoI0&amp;t=ffffffffaa493ab8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eE6V8nDbUVkUGesqfPb-9QOL0Acwbcs7kwN-NzircevXMIji-DTNFMin25Mnl2d3jAmlYdAFEc8hMd-ihEwPrY3dq7AtPfMIrxv1UA2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mcAASOSteioycavrb3bsqCePBi5GjgKTEWyFhmQ_2vqlwQaKdKJhb4ucZg1J7MuO5JOiJTS_39lQfuzo0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jwf4VSQi7LeBzw-J-a7wrZ5IfKIO2daoXWSo6EtgnTD-c-aZrCwpxSfuYnjb7ay32cQSRWG3gwKsk_8YROCz5ngM7bM1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HEFpVKbnoeRX4sYzYPFenAix3kduFlYi-37L38-8srb4Imjxe7IxoIz53S6GdAyqqpxJN09SR9Z6fFCNhU51dcubFSU1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ItGmCSWFnDYBBKvg7hfcqGdyCYtx9bdMpamY_jCPPlEFmybr7Q-XLlCxpiOJWnPCdiw0Ckws_vlLnJpZ0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=hOeJu0xhC-taMXHjcN4SV8MVUSs7llyPskbp_grvQt7LdaS9H68S8_TNhGDD-0jnROzbbSk3zHOG0MWpqcqskMtTjvc1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nai7mGcYyE3IcnZxXVFsRQ6lQXpF1YFswUzzQJeB4zgBqk2QdwDJgCcnlqvbljAH784nTF2dFaDiTYQFnXEJddKmIq01&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LQ1q2RBSthAueue_lMwSC54HzsvmA3dJMPQQgvFNd7Jp0brNm1Fj_gYbxmIvYM8j-w6Oj6E_XF3aRTKi1rUMi4ObLSZ1WW4tsIV94w2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VOYD8Xe7kQCgBzq8oHHAIGJQRO4v3QofuQY94AVJaw2pZp1bfWr4SZM8P9Wrb0rtGyftLpl2_f-zx6LlWTATPSb5u5Y1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=24039AtbfhvTSv5ouNqs2Y9IzduaDn3E1MMIiu1V3wB3CnMqwmDB1OF50LzDFWpbewg7yEWbWptNoN-s0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EMC2VxIjuSWwKAcdC72sHXHOWSTNcFPXHgUQIWOhnup_O7DJKqeA6j-QG6j8ouzWWJFYrKBbaqMc1own_zX7222mdQk1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yDT7ulzE00ZFR7k0k6nKkqJT3Z3SFTy0dFuwGgr2E49AC-YV4iYDs_j1tgP2ICMzoh94_5aVxMUxCYgOTYjhauRShcw1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5ib3lCcyinE3vjssTZp8MWBOdTQGaXc5wDXYBsx8a3bDFPcbLjEuX4NC2INuWBtFMfjxAUXSpg-Gy8Nh9yp9hWYlxiQeEc-xdMn-lA2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=iON9Jxe8QCTDjlQFICVM_g_pcd4YnpbpShW4WyVXLilWVHtGHYEsT4GBCc3ui7gwApGcPz-3ZeUkWdekdlmkepz03601&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xGmPTKfsNy2nEX81lBv2uXoybSzQefBnFGZicoaZqAUnBKY-60XRzdwA1nH_o9NK32ZECgwMkJBMn_u8I3MRFpv1QEQ1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XlV9GqTk6b6kbJfGmKsmTVjSEx8VY2nZT2LsHdOehRv_G2SkPlOtNLPoO8U_Hii8rzHRyisH0OTY5drtaSIiiAl_UuA1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div><script src="/js/dnn.js?cdv=232" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=232" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=232" type="text/javascript"></script><script src="/js/dnncore.js?cdv=232" type="text/javascript"></script><script src="/Resources/Shared/scripts/dnn.jquery.extensions.js?cdv=232" type="text/javascript"></script><script src="/Resources/Shared/scripts/dnn.jquery.tooltip.js?cdv=232" type="text/javascript"></script><script src="/Resources/Shared/scripts/dnn.PasswordStrength.js?cdv=232" type="text/javascript"></script><script src="/DesktopModules/Admin/Security/Scripts/dnn.PasswordComparer.js?cdv=232" type="text/javascript"></script><script src="/Resources/Shared/Scripts/dnn.jquery.js?cdv=232" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 900, '');
+//]]>
+</script>
+
+        
+        
+        
+
+
+<input type="text" id="username" style="width: 0; height: 0; visibility: hidden; position: absolute; left: 0; top: 0" />
+<input type="password" style="width: 0; height: 0; visibility: hidden; position: absolute; left: 0; top: 0" />
+
+<div id="mainHolder" class="monet__container">
+    <div class="monet__nav">
+        <div class="monet__nav_left">
+            <a id="menu__burger" class="menu active" onclick="(function() {
+                const burger = document.getElementById('menu__burger');
+                const menu = document.getElementById('monet__menu');
+                const body = document.getElementById('monet__body');
+                burger.classList.toggle('active');
+                menu.classList.toggle('active');
+                body.classList.toggle('active');
+            })();">
+                <span class="menu_block">
+                    <span class="menu_inner"></span>
+                </span>
+            </a>
+
+            <a id="dnn_dnnLOGO_hypLogo" title="Buhalterija" href="https://e.monet.lt/Ledger.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/logo_horizontal.svg?ver=PwnvzsQsAugmWceBJR1tzQ%3d%3d" alt="Buhalterija" style="border-width:0px;" /></a>
+        </div>
+        <div id="dnn_topModule" class="monet__nav_center"><div class="DnnModule DnnModule-MMenuLeft DnnModule-1011"><a name="1011"></a><div id="dnn_ctr1011_ContentPane"><!-- Start_Module_1011 --><div id="dnn_ctr1011_ModuleContent" class="DNNModuleContent ModMMenuLeftC">
+	<div id="dnn_ctr1011_MenuLeft_div_Text"><div class="phone"><h2>Reikia pagalbos?</h2><p><b>8 5 2077987</b></p></div></div>
+</div><!-- End_Module_1011 --></div>
+</div></div>
+        <div id="dnn_topRightModule" class="monet__nav_right"><div class="DnnModule DnnModule-MHeader DnnModule-604"><a name="604"></a><div id="dnn_ctr604_ContentPane"><!-- Start_Module_604 --><div id="dnn_ctr604_ModuleContent" class="DNNModuleContent ModMHeaderC">
+	
+
+<div id="dnn_ctr604_MonetHeader_pnlUser">
+		
+    <div class="headerContainer">
+        <div class="headerRow">
+            <div class="headerCol">
+                <div id="dnn_ctr604_MonetHeader_CompanySelect_lblCompanySelectContainer" class="company_select_container" tabindex="0">
+    <span id="dnn_ctr604_MonetHeader_CompanySelect_lblCompany" class="currentCompany">UAB KREKINGO NAFTA</span>
+
+    <div class="company_select_icon">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-11 0 597 512">
+            <path fill="currentColor" d="M571 244q10 10 0 23q-9 10 -22 0l-37 -33v198q-1 34 -23 57q-23 22 -57 23h-288q-34 -1 -57 -23q-22 -23 -23 -57v-198l-37 33q-12 10 -23 0q-9 -13 1 -23l272 -240q11 -8 22 0l272 240v0zM144 480h64v-160q0 -14 9 -23t23 -9h96q14 0 23 9t9 23v160h64q20 -1 34 -14 q13 -14 14 -34v-225l-192 -170l-192 170v225q1 20 14 34q14 13 34 14v0zM240 480h96v-160h-96v160v0z" />
+        </svg>
+    </div>
+
+    <div id="dnn_ctr604_MonetHeader_CompanySelect_DropPanel" class="company_select_dropDown animate__fadeInDown" style="display: none;">
+			
+        <div class="company_search_filter_container">
+            <span id="dnn_ctr604_MonetHeader_CompanySelect_lblCompanySearch" class="admLabel">Įmonės</span>
+            <div id="dnn_ctr604_MonetHeader_CompanySelect_companySearch" class="admInputContainer">
+				<div class="admLabelContainer">
+					<span id="dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01" class="admLabelInfo" style="color:Red;display:none;">Недопустимый символ</span>
+				</div><input name="dnn$ctr604$MonetHeader$CompanySelect$companySearch$textBox" type="text" maxlength="250" id="dnn_ctr604_MonetHeader_CompanySelect_companySearch_textBox" class="txtBox" autocomplete="on" onkeyup="CompanyFilterInput(event, this)" onmouseover="ExpandEdit(this);" onmouseout="ShrinkIfUnfocused(this);" onfocusout="Shrink(this);" placeholder="Paieška" />
+			</div>
+        </div>
+        <div id="CompanyList" class="company_container">
+            
+        </div>
+    
+		</div>
+    
+</div>
+
+
+
+<script type="text/javascript">
+
+    document.onkeydown = function (event) {
+        var tag = event.target.tagName;
+        if (event && event.keyCode == 13 && tag !== "TEXTAREA" && event.target.classList[0] !== "ajax__html_editor_extender_texteditor") {
+            event.preventDefault();
+        }
+    }
+
+    $(document).ready(function () {
+        $find('lblCompanySelectBehavior').add_shown(companyPopUp_Shown);
+    });
+
+    function companyPopUp_Shown(sender, e) {
+        var searchInput = $('#' + 'dnn_ctr604_MonetHeader_CompanySelect_companySearch').children('input');
+        if (searchInput.length > 0) {
+            searchInput[0].focus();
+        }
+    }
+    function CompanyFilterInput(event, textControl) {
+        if (event && event.keyCode == 13) {
+            SelectFirstCompany('CompanyList');
+        }
+        else if (event && event.keyCode == 40) {
+            FocusFirstCompany('CompanyList');
+        }
+        else {
+            FilterCompanyList(textControl, 'CompanyList');
+        }
+    }
+
+    function FilterCompanyList(textControl, companyListElementId) {
+        var companyListContainer = document.getElementById(companyListElementId);
+
+        for (child in companyListContainer.children) {
+            if (companyListContainer.children[child].childElementCount > 0) {
+                var companyName = companyListContainer.children[child].children[0].innerHTML;
+
+                var processedCompanyName = ReplaceLithuanianChars(companyName.toLowerCase());
+                var processedInputText = ReplaceLithuanianChars(textControl.value.toLowerCase());
+
+                if (processedCompanyName.includes(processedInputText))
+                    companyListContainer.children[child].hidden = false;
+                else
+                    companyListContainer.children[child].hidden = true;
+            }
+        }
+    }
+
+    function SelectFirstCompany(companyListElementId) {
+        var companyListContainer = document.getElementById(companyListElementId);
+        var firstVIsibleChild = FindFirstVisibleCompany(companyListContainer);
+        firstVIsibleChild.children[0].focus();
+        firstVIsibleChild.children[0].click();
+    }
+
+    function FocusFirstCompany(companyListElementId) {
+        var companyListContainer = document.getElementById(companyListElementId);
+        var firstVisibleChild = FindFirstVisibleCompany(companyListContainer);
+        firstVisibleChild.children[0].focus();
+    }
+
+    function FindFirstVisibleCompany(companyListContainer) {
+        for (child in companyListContainer.children) {
+            if (companyListContainer.children[child].childElementCount > 0) {
+                if (companyListContainer.children[child].hidden != true) {
+                    return companyListContainer.children[child];
+                }
+            }
+        }
+    }
+
+    function WalkThroughCompanyList(event, textControl) {
+        if (event && event.keyCode == 13) {
+            textControl.click();
+        }
+        else if (event && event.keyCode == 38) {
+            MoveUpThroughCompanyList(event, textControl);
+        }
+        else if (event && event.keyCode == 40) {
+            MoveDownThroughCompanyList(event, textControl);
+        }
+    }
+
+    function MoveUpThroughCompanyList(event, textControl) {
+        var companyListContainer = textControl.parentNode.parentNode;
+        var currentIndex = Array.prototype.indexOf.call(companyListContainer.children, textControl.parentNode);
+        var previoustVisibleChild = FindPreviousVisibletChild(companyListContainer, currentIndex);
+        if (typeof previoustVisibleChild !== 'undefined') {
+            previoustVisibleChild.children[0].focus();
+        }
+        else {
+            var inputs = companyListContainer.parentNode.getElementsByTagName('input');
+            if (inputs.length > 0) {
+                inputs[0].focus();
+            }
+        }
+    }
+
+    function MoveDownThroughCompanyList(event, textControl) {
+        var companyListContainer = textControl.parentNode.parentNode;
+        var currentIndex = Array.prototype.indexOf.call(companyListContainer.children, textControl.parentNode);
+        var nexttVisibleChild = FindNextVisibletChild(companyListContainer, currentIndex);
+        if (typeof nexttVisibleChild !== 'undefined') {
+            nexttVisibleChild.children[0].focus();
+        }
+    }
+
+    function FindNextVisibletChild(companyListContainer, currentIndex) {
+        for (let i = currentIndex + 1; i < companyListContainer.childElementCount; i++) {
+            if (companyListContainer.children[i].hidden != true) {
+                return companyListContainer.children[i];
+            }
+        }
+    }
+
+    function FindPreviousVisibletChild(companyListContainer, currentIndex) {
+        for (let i = currentIndex - 1; i >= 0; i--) {
+            if (companyListContainer.children[i].hidden != true) {
+                return companyListContainer.children[i];
+            }
+        }
+    }
+</script>
+
+                <span id="dnn_ctr604_MonetHeader_lblConsult" class="currentCompanyConsultant">Jus konsultuoja Aleksandra <font color="red"><b>(SUSTABDYTA)</b></font></span>
+            </div>
+
+            <div class="headerElementSeparator"></div>
+
+            <div id="dnn_ctr604_MonetHeader_lblUserCOntainer" class="header_user">
+                <span id="dnn_ctr604_MonetHeader_lblUser" class="admTextS">Leanid Kanoplich</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+
+                <div id="dnn_ctr604_MonetHeader_ProfilePanel" class="header_user_container animate__fadeInDown" style="display: none;">
+			
+
+                    <div id="dnn_ctr604_MonetHeader_TabContainer1" class="tabs twoHeaders" style="visibility:hidden;">
+				<div id="dnn_ctr604_MonetHeader_TabContainer1_header" class="ajax__tab_header">
+					<span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_tab" class="ajax__tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_dnn_ctr604_MonetHeader_TabContainer1_TabPanel2" href="#" style="text-decoration:none;"><span>Vartotojas</span></a></span></span></span><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_tab" class="ajax__tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_dnn_ctr604_MonetHeader_TabContainer1_TabPanel1" href="#" style="text-decoration:none;"><span>Slaptažodžis</span></a></span></span></span>
+				</div><div id="dnn_ctr604_MonetHeader_TabContainer1_body" class="ajax__tab_body" style="display:block;">
+					<div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2" class="ajax__tab_panel">
+						
+                                <div class="user_header">
+                                    <span class="admLabel">Vartotojo duomenys</span>
+                                </div>
+
+                                <div class="user_data">
+                                    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData" class="admGroup lg">
+							<div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName" class="admInputContainer">
+								<div class="admLabelContainer">
+									<span class="lblText">Имя:</span><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01" class="admLabelInfo" style="color:Red;display:none;">Недопустимый символ</span>
+								</div><input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel2$UserData$FirstName$textBox" type="text" value="Leanid" maxlength="250" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_textBox" class="txtBox" autocomplete="on" />
+							</div><div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName" class="admInputContainer">
+								<div class="admLabelContainer">
+									<span class="lblText">Фамилия:</span><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01" class="admLabelInfo" style="color:Red;display:none;">Недопустимый символ</span>
+								</div><input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel2$UserData$LastName$textBox" type="text" value="Kanoplich" maxlength="250" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_textBox" class="txtBox" autocomplete="on" />
+							</div><div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone" class="admInputContainer">
+								<div class="admLabelContainer">
+									<span class="lblText">Телефон:</span><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01" class="admLabelInfo" style="color:Red;display:none;">Недопустимый символ</span>
+								</div><input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel2$UserData$Phone$textBox" type="text" value="+37069799519" maxlength="250" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_textBox" class="txtBox" autocomplete="on" />
+							</div><div class="admInputContainer">
+                                            <div class="admLabelContainer">
+                                                <span class="lblText">Подпись:</span>
+                                            </div>
+                                            
+                                            <input type="file" name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel2$UserData$Signature" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Signature" />
+                                        </div><div class="btnGroup">
+                                            <a class="admLink button warning containsImage" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$TabContainer1$TabPanel2$UserData$ctl04&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img src="/images/HeroIcons/save-light.svg" style="border-width:0px;" /><span>Сохранить</span></a>
+                                        </div>
+						</div>
+                                </div>
+                            
+					</div><div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+						
+                                
+
+<div class="dnnForm dnnPassword dnnClear" id="dnnPassword">
+    <fieldset>
+		
+		<div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_pnlChange">
+							
+		    <h2 class="dnnFormSectionHead"><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblChangePasswordHeading">Pakeisti slaptažodį</span></h2>
+            <div class="dnnFormItem"><p><span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblChangeHelp">Norėdami pakeisti slaptažodį, turite įvesti senąjį slaptažodį ir naują pakartoti du kartus.</span></p></div>
+            <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_oldPasswordRow" class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plOldPassword_label" for="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtOldPassword">
+        <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plOldPassword_lblLabel">Dabartinis slaptažodis:</span>   
+    </label>
+    <a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plOldPassword_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$plOldPassword$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plOldPassword_pnlHelp" class="dnnTooltip">
+								
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plOldPassword_lblHelp" class="dnnHelpText">Įveskite dabartinį slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+							</div>
+</div>
+
+
+                <input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$txtOldPassword" type="password" maxlength="39" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtOldPassword" size="25" />
+            </div>
+            <div class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewPassword_label" for="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtNewPassword">
+        <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewPassword_lblLabel">Naujas slaptažodis:</span>   
+    </label>
+    <a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewPassword_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$plNewPassword$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewPassword_pnlHelp" class="dnnTooltip">
+								
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewPassword_lblHelp" class="dnnHelpText">Įveskite naują slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+							</div>
+</div>
+
+
+                <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_passwordContainer">
+								
+                    <input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$txtNewPassword" type="password" maxlength="39" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtNewPassword" size="25" />
+                
+							</div>
+            </div>
+            <div class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewConfirm_label" for="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtNewConfirm">
+        <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewConfirm_lblLabel">Patvirtinkite slaptažodį:</span>   
+    </label>
+    <a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewConfirm_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$plNewConfirm$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewConfirm_pnlHelp" class="dnnTooltip">
+								
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plNewConfirm_lblHelp" class="dnnHelpText">Patvirtinkite naują slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+							</div>
+</div>
+
+
+                <input name="dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$txtNewConfirm" type="password" maxlength="39" id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_txtNewConfirm" class="password-confirm" size="25" />
+            </div>
+            
+            <div class="dnnClear"></div>
+            <ul class="dnnActions dnnClear">
+                 <li><a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_cmdUpdate" title="Pakeisti slaptažodį" class="dnnPrimaryAction" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$cmdUpdate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Pakeisti slaptažodį</a></li>
+            </ul>       
+		
+						</div>
+       	
+		
+        <div class="dnnFormItem">
+            
+<div class="dnnLabel">    
+    <label id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plLastChanged_label" for="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblLastChanged">
+        <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plLastChanged_lblLabel">Paskutinis slaptažodžio keitimas:</span>   
+    </label>
+    <a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plLastChanged_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$plLastChanged$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plLastChanged_pnlHelp" class="dnnTooltip">
+							
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plLastChanged_lblHelp" class="dnnHelpText">Data, kada slaptažodis buvo paskutinį kartą pakeistas</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+						</div>
+</div>
+
+
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblLastChanged">2021 m. rugsėjo 20 d.</span>
+        </div>
+        <div class="dnnFormItem">
+            
+<div class="dnnLabel">    
+    <label id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plExpires_label" for="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblExpires">
+        <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plExpires_lblLabel">Slaptažodis galioja iki:</span>   
+    </label>
+    <a id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plExpires_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr604$MonetHeader$TabContainer1$TabPanel1$Password$plExpires$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plExpires_pnlHelp" class="dnnTooltip">
+							
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_plExpires_lblHelp" class="dnnHelpText">Iki kada galioja slaptažodis</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+						</div>
+</div>
+
+
+            <span id="dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_lblExpires">Slaptažodis galioja neribotai</span>
+        </div>
+    </fieldset>
+    <ul class="dnnActions dnnClear">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>  
+</div>
+                            
+					</div>
+				</div>
+			</div>
+                
+		</div>
+                
+            </div>
+
+
+            <div id="dnn_ctr604_MonetHeader_lblLanguageContainer" class="header_language_container">
+                <i id="dnn_ctr604_MonetHeader_lblLanguage" class="fp fp-rounded ru"></i>
+
+                <div id="dnn_ctr604_MonetHeader_DropPanelLanguage" class="header_language_dropDown animate__fadeInDown" style="display: none;">
+			
+                    <div class="language_header">
+                        <span class="admLabel">Pasirinkite kalbą</span>
+                    </div>
+                    <div class="language_container">
+                        
+                                <div class="language_row">
+                                    <a id="dnn_ctr604_MonetHeader_rptLanguage_ctl00_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$rptLanguage$ctl00$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr604_MonetHeader_rptLanguage_ctl00_imgLanguage" class="fp fp-rounded lt"></i><span id="dnn_ctr604_MonetHeader_rptLanguage_ctl00_textLanguage">Lietuvių</span></a>
+                                </div>
+                            
+                                <div class="language_row">
+                                    <a id="dnn_ctr604_MonetHeader_rptLanguage_ctl01_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$rptLanguage$ctl01$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr604_MonetHeader_rptLanguage_ctl01_imgLanguage" class="fp fp-rounded gb"></i><span id="dnn_ctr604_MonetHeader_rptLanguage_ctl01_textLanguage">Anglų</span></a>
+                                </div>
+                            
+                                <div class="language_row">
+                                    <a id="dnn_ctr604_MonetHeader_rptLanguage_ctl02_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$rptLanguage$ctl02$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr604_MonetHeader_rptLanguage_ctl02_imgLanguage" class="fp fp-rounded ru"></i><span id="dnn_ctr604_MonetHeader_rptLanguage_ctl02_textLanguage">Rusų</span></a>
+                                </div>
+                            
+                                <div class="language_row">
+                                    <a id="dnn_ctr604_MonetHeader_rptLanguage_ctl03_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$rptLanguage$ctl03$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr604_MonetHeader_rptLanguage_ctl03_imgLanguage" class="fp fp-rounded pl"></i><span id="dnn_ctr604_MonetHeader_rptLanguage_ctl03_textLanguage">Lenkų</span></a>
+                                </div>
+                            
+                                <div class="language_row">
+                                    <a id="dnn_ctr604_MonetHeader_rptLanguage_ctl04_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr604$MonetHeader$rptLanguage$ctl04$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr604_MonetHeader_rptLanguage_ctl04_imgLanguage" class="fp fp-rounded ee"></i><span id="dnn_ctr604_MonetHeader_rptLanguage_ctl04_textLanguage">Estų</span></a>
+                                </div>
+                            
+                    </div>
+                
+		</div>
+                
+            </div>
+
+            <div class="headerElementSeparator"></div>
+
+            <a id="dnn_ctr604_MonetHeader_dnnLOGIN_loginLink" title="Atsijungti" class="header_logout" rel="nofollow" href="https://e.monet.lt/Ledger/tabid/58/ctl/Logoff/Default.aspx">Atsijungti</a>
+
+        </div>
+    </div>
+
+	</div>
+
+
+
+
+</div><!-- End_Module_604 --></div>
+</div></div>
+    </div>
+    <aside id="monet__menu" class="monet__menu active">
+        <div class="monet__menu_top">
+        </div>
+        <div id="dnn_LeftPane" class="monet__menu_bot"><div class="DnnModule DnnModule-MMenu DnnModule-613"><a name="613"></a><div id="dnn_ctr613_ContentPane"><!-- Start_Module_613 --><div id="dnn_ctr613_ModuleContent" class="DNNModuleContent ModMMenuC">
+	
+
+
+<div class="navigationContainer">
+    <input type="hidden" name="dnn$ctr613$MonetMenu$paneId" id="dnn_ctr613_MonetMenu_paneId" />
+    <div id="dnn_ctr613_MonetMenu_divTree" class="menuStyle"><ul class="vertical-nav-menu monet-menu"><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl21&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon pe-7s-notebook"></i>Главная Книга<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/LedgerTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl31&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>План счетов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/BankTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl33&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Банковские счета</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/AssetTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl35&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Основные средства</a></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl37&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Обзор<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/View/LedgerTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl46&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции по счетам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/View/BankTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl48&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Банковские операции</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/View/AssetTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl50&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции по ОС</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/View/LedgerJournalTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl52&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Бухгалтерские журналы</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/View/AssetJournalList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl54&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журналы основных средств</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl56&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Ведение записей<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/Operations/LedgerJournalTableEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl63&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести общую операцию</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/Operations/AssetJournalEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl65&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести операцию имущества</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Ledger/Operations/LedgerJournalBankEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl67&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Импорт/экспорт банковских операций</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl69&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Отчеты<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTrialBalanceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl98&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Пробный баланс</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerAlternativeReport&amp;reportName=2016_BAL_SUTRUMP" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl100&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Баланс</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerAlternativeReport&amp;reportName=2016_PN" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl102&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Доход (убыток)</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerConsolidationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl104&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Консолидированный результат</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl106&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции по счетам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl108&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оборот счетов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTransByDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl110&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оборот счетов по месяцам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerCashReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl112&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Кассовая книга</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerDimReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl114&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции ГК по свойствам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerCorrespondence" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl116&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Кореспонденция ГК</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerAlternativeByDimReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl118&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Финансовый отчет по размерам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTransDetailReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl120&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Выписка по счету</a></li><li class="monet-menu-item"><div class="monet-divider"></div></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=AssetTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl123&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Динамика имущества</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=AssetExploitationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl125&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт по вводу имущества в эксплуатацию</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=AssetInventoryReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl127&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт инвенторизации имушества</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=AssetLiquidationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl129&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт ликвидации имущества</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=AssetTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl131&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции по ОС</a></li><li class="monet-menu-item"><div class="monet-divider"></div></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=BankTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl134&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Банковский оборот</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=BankBalanceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl136&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Остаток банковских счетов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=BankTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl138&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Выписка банковского счёта</a></li><li class="monet-menu-item"><div class="monet-divider"></div></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTaxReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl141&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Учёт НДС</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=LedgerTaxNotClosedReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl143&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>НДС не закрыт</a></li></ul></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl145&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon pe-7s-right-arrow"></i>Продажи<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/CustTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl154&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Клиенты</a></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl156&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Обзор<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/View/CustTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl166&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/View/CustInvoiceList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl168&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Наклдные продаж</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/CustTableEdit/CustAgreementList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl170&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Контракты</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/View/SalesTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl172&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журналы продажи товаров</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/View/LedgerJournalSalesList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl174&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журналы продаж услуг</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/View/LedgerJournalCustList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl176&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журнал платежей клиентов</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl178&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Ведение записей<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Operations/SalesTableEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl185&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести продажу товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Operations/LedgerJournalCustEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl187&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести оплату клиента</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Operations/LedgerJournalSalesEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl189&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести продажу услуг</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl191&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Функции<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Functions/CustSalesCreate.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl200&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Пересылка накладной по договору</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Functions/CustExchangeAdj.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl202&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оценка изменения курса</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Functions/CustInvoiceRegister.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl204&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Регистр счетов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Functions/CustInterest.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl206&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Управление долгами</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Cust/Functions/CustAutoSettle.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl208&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Сопоставить</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl210&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Отчеты<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesInvoiceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl232&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Печатать накладную</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl234&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustDebtsReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl236&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Долги клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustDebtsOnDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl238&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Долги покупателей на сегодняшний день</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustInterReconciliationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl240&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт согласования долгов с клиентами</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustTransByDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl242&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции клиентов по месяцам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustInvoicesReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl244&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Выписанные накладные</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustItemsReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl246&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Продажи товаров</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesByDimReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl248&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Продажи товаров по подразделениям</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesPackingSlipReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl250&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Печатать транспортную накладную</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesVendReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl252&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Продажи товаров по поставщикам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustBalanceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl254&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Балансы клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustBalanceDetailReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl256&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Детальный баланс клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesInvoiceReportAll" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl258&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Все счета</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=SalesByLocationReport " class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl260&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Продажи товаров по cкладам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustServiceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl262&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Продажи товаров</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl264&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Динамика клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=CustOpenInvoicesReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl266&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Неоплаченные накладные</a></li></ul></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl268&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon pe-7s-left-arrow"></i>Закупки<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/VendTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl277&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Поставщики</a></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl279&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Обзор<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/View/VendTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl288&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оперции поставщиков</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/View/VendInvoiceList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl290&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Счета закупок</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/View/PurchTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl292&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журналы закупки товаров</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/View/LedgerJournalPurchList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl294&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журнал закупок услуг</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/View/LedgerJournalVendList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl296&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журнал оплаты поставщикам</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl298&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Ведение записей<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Operations/PurchTableEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl305&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести покупку товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Operations/LedgerJournalVendEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl307&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести оплату поставщику</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Operations/LedgerJournalPurchEdit.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl309&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ввести покупку услуг</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl311&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Функции<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Functions/VendExchangeAdj.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl319&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оценка изменения курса</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Functions/VendInvoiceRegister.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl321&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Регистр счетов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Functions/VendInterest.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl323&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Управление долгами</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Vend/Functions/VendAutoSettle.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl325&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Сопоставить</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl327&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Отчеты<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl344&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Динамика поставщиков</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl346&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Оперции поставщиков</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendDebtsReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl348&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Долги поставщикам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendDebtsOnDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl350&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Задолженность поставщикам на сегодняшний день</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendTransByDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl352&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Операции поставщиков по месяцам</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendInvoicesReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl354&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Счета закупок</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendItemsReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl356&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Закупки товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendAdvanceIntervalReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl358&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Учёт аванса</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendServiceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl360&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i></a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendBalanceReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl362&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Балансы поставщиков</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendBalanceDetailReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl364&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Детальный баланс поставщиков</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=RepresentationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl366&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Репрезентация</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=VendInterReconciliationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl368&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт согласования долгов с поставщиком</a></li></ul></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl370&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon pe-7s-box2"></i>Номенклатурные единицы<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Invent/InventTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl378&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Товары</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Invent/ServiceTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl380&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Список услуг</a></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl382&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Обзор<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Invent/View/InventTransList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl389&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Проводки по номенклатуре</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Invent/View/InventOnhandList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl391&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Остатки товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Invent/View/InventJournalTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl393&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Журнал товаров</a></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl395&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Отчеты<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventTurnoverReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl411&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Динамика клиентов</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl413&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Проводки по номенклатуре</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventOnhandReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl415&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Остатки товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventOnhandByDateReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl417&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Инвентарь по дате</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventStatementReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl419&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Опись инвенторизации</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventScrapStatementReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl421&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт по списанию товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPricesReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl423&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Прайс-лист</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPriceLabelBigReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl425&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Большие карточки товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPriceLabelSmallReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl427&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Маленькие карточки товара</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPurchFuelReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl429&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Акт списания топлива</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPriceDiscReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl431&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Цены и скидки по реализации</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=InventPackingTableReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl433&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Пакеты</a></li></ul></li></ul></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl435&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon pe-7s-users"></i>Сотрудники<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Empl/EmplTableList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl442&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Список сотрудников</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Empl/EmplAgreementsList.aspx" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl444&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Рабочие договора</a></li><li class="monet-menu-item"><a href="#" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl446&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon /File/Folder.gif"></i>Отчеты<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a><ul class="monet-menu"><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplTimeTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl463&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ведомость рабочего времени</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplSalaryTransReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl465&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Ведомость заработной платы</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplSalaryNoteReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl467&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Свидетельство заработной платы</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplHolidaysReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl469&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Отпуск</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplSalaryByEmploeeReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl471&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Расчётный лист</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplAllowancelReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl473&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Начисления</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplDeclarationReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl475&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>GPM313 детализация</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplInfoReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl477&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Рабочие договора</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplTimeByTypeReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl479&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Время работы по дате</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplSalaryAccountReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl481&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Годовая карта ТД</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplLeave" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl483&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>Резюме просьб</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=EmplIncomeTypes" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl485&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>типам подоходного налога</a></li><li class="monet-menu-item"><a href="https://e.monet.lt/Reports.aspx?Report=BailiffPaymentHistoryReport" class="monet-menu-item-header" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$ctl487&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i class="metismenu-icon"></i>История платежей судебных приставов</a></li></ul></li></ul></li></ul></div>
+
+    <div class="navigationMobileNavItems">
+        <div id="dnn_ctr613_MonetMenu_mobileCompanySelectContainer" class="mobileCompanySelectContainer">
+            <span id="dnn_ctr613_MonetMenu_lblCompany" class="currentCompany">UAB KREKINGO NAFTA</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-11 0 597 512">
+               <path fill="currentColor" d="M571 244q10 10 0 23q-9 10 -22 0l-37 -33v198q-1 34 -23 57q-23 22 -57 23h-288q-34 -1 -57 -23q-22 -23 -23 -57v-198l-37 33q-12 10 -23 0q-9 -13 1 -23l272 -240q11 -8 22 0l272 240v0zM144 480h64v-160q0 -14 9 -23t23 -9h96q14 0 23 9t9 23v160h64q20 -1 34 -14 q13 -14 14 -34v-225l-192 -170l-192 170v225q1 20 14 34q14 13 34 14v0zM240 480h96v-160h-96v160v0z" />
+            </svg> 
+        </div>
+
+        <div id="dnn_ctr613_MonetMenu_mobileUserContainer" class="mobileUserContainer">
+            <span id="dnn_ctr613_MonetMenu_lblUser">Leanid Kanoplich</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+        </div>
+
+        <div id="dnn_ctr613_MonetMenu_mobileLanguageContainer" class="mobileLanguageContainer">
+            <span id="dnn_ctr613_MonetMenu_lblLanguageLabel">Kalba</span>
+
+            <i id="dnn_ctr613_MonetMenu_lblLanguage" class="fp fp-rounded ru"></i>
+        </div>
+    </div>
+
+    <div id="dnn_ctr613_MonetMenu_lblConsultContainer" class="navigationFooter smallSize">
+        <span id="dnn_ctr613_MonetMenu_lblConsult" class="admLink">Kokybės telefonas +370 646 90321</span>
+    </div>
+    <div class="navigationFooter">
+        <a id="dnn_ctr613_MonetMenu_help" class="menu__footer_item" href="/Build%20html%20documentation/Pradzia.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+            </svg>
+            <span>
+                Pagalba
+            </span>
+        </a>
+
+        
+
+        
+    </div>
+</div>
+
+<div id="dnn_ctr613_MonetMenu_CompanySelectPanel" class="modalPopup company_select_dropDown animate__fadeInDown" style="display: none;">
+		
+    <div class="popUpPane">
+        <div class="company_search_filter_container">
+            <span id="dnn_ctr613_MonetMenu_lblCompanySearch" class="admLabel">Įmonės</span>
+            <div id="dnn_ctr613_MonetMenu_companySearch" class="admInputContainer">
+			<div class="admLabelContainer">
+				<span id="dnn_ctr613_MonetMenu_companySearch_ctl01" class="admLabelInfo" style="color:Red;display:none;">Недопустимый символ</span>
+			</div><input name="dnn$ctr613$MonetMenu$companySearch$textBox" type="text" maxlength="250" id="dnn_ctr613_MonetMenu_companySearch_textBox" class="txtBox" autocomplete="on" onkeyup="CompanyFilterInputMobile(event, this)" onmouseover="ExpandEdit(this);" onmouseout="ShrinkIfUnfocused(this);" onfocusout="Shrink(this);" placeholder="Paieška" />
+		</div>
+        </div>
+        <div id="CompanyListMobile" class="company_container">
+            
+        </div>
+        <div class="popUpFooter">
+            <input type="submit" name="dnn$ctr613$MonetMenu$AdmButton4" value="Отменить" onclick="ClosePopUP(this, &#39;CompanySelectBehavior&#39;); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$AdmButton4&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr613_MonetMenu_AdmButton4" class="admLinkButton admLinkButton danger outline" />
+        </div>
+    </div>
+
+	</div>
+
+
+<div id="dnn_ctr613_MonetMenu_ProfilePanel" class="modalPopup header_user_container animate__fadeInDown" style="display: none;">
+		
+    <div class="popUpPane">
+        
+
+<div class="dnnForm dnnPassword dnnClear" id="dnnPassword">
+    <fieldset>
+		
+		<div id="dnn_ctr613_MonetMenu_Password_pnlChange">
+			
+		    <h2 class="dnnFormSectionHead"><span id="dnn_ctr613_MonetMenu_Password_lblChangePasswordHeading">Pakeisti slaptažodį</span></h2>
+            <div class="dnnFormItem"><p><span id="dnn_ctr613_MonetMenu_Password_lblChangeHelp">Norėdami pakeisti slaptažodį, turite įvesti senąjį slaptažodį ir naują pakartoti du kartus.</span></p></div>
+            <div id="dnn_ctr613_MonetMenu_Password_oldPasswordRow" class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr613_MonetMenu_Password_plOldPassword_label" for="dnn_ctr613_MonetMenu_Password_txtOldPassword">
+        <span id="dnn_ctr613_MonetMenu_Password_plOldPassword_lblLabel">Dabartinis slaptažodis:</span>   
+    </label>
+    <a id="dnn_ctr613_MonetMenu_Password_plOldPassword_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr613$MonetMenu$Password$plOldPassword$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr613_MonetMenu_Password_plOldPassword_pnlHelp" class="dnnTooltip">
+				
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr613_MonetMenu_Password_plOldPassword_lblHelp" class="dnnHelpText">Įveskite dabartinį slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+			</div>
+</div>
+
+
+                <input name="dnn$ctr613$MonetMenu$Password$txtOldPassword" type="password" maxlength="39" id="dnn_ctr613_MonetMenu_Password_txtOldPassword" size="25" />
+            </div>
+            <div class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr613_MonetMenu_Password_plNewPassword_label" for="dnn_ctr613_MonetMenu_Password_txtNewPassword">
+        <span id="dnn_ctr613_MonetMenu_Password_plNewPassword_lblLabel">Naujas slaptažodis:</span>   
+    </label>
+    <a id="dnn_ctr613_MonetMenu_Password_plNewPassword_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr613$MonetMenu$Password$plNewPassword$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr613_MonetMenu_Password_plNewPassword_pnlHelp" class="dnnTooltip">
+				
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr613_MonetMenu_Password_plNewPassword_lblHelp" class="dnnHelpText">Įveskite naują slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+			</div>
+</div>
+
+
+                <div id="dnn_ctr613_MonetMenu_Password_passwordContainer">
+				
+                    <input name="dnn$ctr613$MonetMenu$Password$txtNewPassword" type="password" maxlength="39" id="dnn_ctr613_MonetMenu_Password_txtNewPassword" size="25" />
+                
+			</div>
+            </div>
+            <div class="dnnFormItem">
+                
+<div class="dnnLabel">    
+    <label id="dnn_ctr613_MonetMenu_Password_plNewConfirm_label" for="dnn_ctr613_MonetMenu_Password_txtNewConfirm">
+        <span id="dnn_ctr613_MonetMenu_Password_plNewConfirm_lblLabel">Patvirtinkite slaptažodį:</span>   
+    </label>
+    <a id="dnn_ctr613_MonetMenu_Password_plNewConfirm_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr613$MonetMenu$Password$plNewConfirm$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr613_MonetMenu_Password_plNewConfirm_pnlHelp" class="dnnTooltip">
+				
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr613_MonetMenu_Password_plNewConfirm_lblHelp" class="dnnHelpText">Patvirtinkite naują slaptažodį</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+			</div>
+</div>
+
+
+                <input name="dnn$ctr613$MonetMenu$Password$txtNewConfirm" type="password" maxlength="39" id="dnn_ctr613_MonetMenu_Password_txtNewConfirm" class="password-confirm" size="25" />
+            </div>
+            
+            <div class="dnnClear"></div>
+            <ul class="dnnActions dnnClear">
+                 <li><a id="dnn_ctr613_MonetMenu_Password_cmdUpdate" title="Pakeisti slaptažodį" class="dnnPrimaryAction" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$Password$cmdUpdate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Pakeisti slaptažodį</a></li>
+            </ul>       
+		
+		</div>
+       	
+		
+        <div class="dnnFormItem">
+            
+<div class="dnnLabel">    
+    <label id="dnn_ctr613_MonetMenu_Password_plLastChanged_label" for="dnn_ctr613_MonetMenu_Password_lblLastChanged">
+        <span id="dnn_ctr613_MonetMenu_Password_plLastChanged_lblLabel">Paskutinis slaptažodžio keitimas:</span>   
+    </label>
+    <a id="dnn_ctr613_MonetMenu_Password_plLastChanged_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr613$MonetMenu$Password$plLastChanged$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr613_MonetMenu_Password_plLastChanged_pnlHelp" class="dnnTooltip">
+			
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr613_MonetMenu_Password_plLastChanged_lblHelp" class="dnnHelpText">Data, kada slaptažodis buvo paskutinį kartą pakeistas</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+		</div>
+</div>
+
+
+            <span id="dnn_ctr613_MonetMenu_Password_lblLastChanged">2021 m. rugsėjo 20 d.</span>
+        </div>
+        <div class="dnnFormItem">
+            
+<div class="dnnLabel">    
+    <label id="dnn_ctr613_MonetMenu_Password_plExpires_label" for="dnn_ctr613_MonetMenu_Password_lblExpires">
+        <span id="dnn_ctr613_MonetMenu_Password_plExpires_lblLabel">Slaptažodis galioja iki:</span>   
+    </label>
+    <a id="dnn_ctr613_MonetMenu_Password_plExpires_cmdHelp" tabindex="-1" class="dnnFormHelp" aria-label="Help" href="javascript:__doPostBack(&#39;dnn$ctr613$MonetMenu$Password$plExpires$cmdHelp&#39;,&#39;&#39;)"></a>
+    <div id="dnn_ctr613_MonetMenu_Password_plExpires_pnlHelp" class="dnnTooltip">
+			
+        <div class="dnnFormHelpContent dnnClear">
+            <span id="dnn_ctr613_MonetMenu_Password_plExpires_lblHelp" class="dnnHelpText">Iki kada galioja slaptažodis</span>
+            <a href="#" class="pinHelp" aria-label="Pin"></a>
+       </div>   
+    
+		</div>
+</div>
+
+
+            <span id="dnn_ctr613_MonetMenu_Password_lblExpires">Slaptažodis galioja neribotai</span>
+        </div>
+    </fieldset>
+    <ul class="dnnActions dnnClear">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>  
+</div>
+        <div class="popUpFooter">
+            <input type="submit" name="dnn$ctr613$MonetMenu$AdmButton2" value="Отменить" onclick="ClosePopUP(this, &#39;modalPasswordBehavior&#39;); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$AdmButton2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr613_MonetMenu_AdmButton2" class="admLinkButton admLinkButton danger outline" />
+        </div>
+    </div>
+
+	</div>
+
+
+<div id="dnn_ctr613_MonetMenu_DropPanelLanguage" class="modalPopup header_language_dropDown animate__fadeInDown" style="display: none;">
+		
+    <div class="popUpPane">
+        <div class="language_header">
+            <span class="admLabel">Pasirinkite kalbą</span>
+        </div>
+        <div class="language_container">
+            
+                    <div class="language_row">
+                        <a id="dnn_ctr613_MonetMenu_rptLanguage_ctl00_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$rptLanguage$ctl00$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr613_MonetMenu_rptLanguage_ctl00_imgLanguage" class="fp fp-rounded lt"></i><span id="dnn_ctr613_MonetMenu_rptLanguage_ctl00_textLanguage">Lietuvių</span></a>
+                    </div>
+                
+                    <div class="language_row">
+                        <a id="dnn_ctr613_MonetMenu_rptLanguage_ctl01_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$rptLanguage$ctl01$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr613_MonetMenu_rptLanguage_ctl01_imgLanguage" class="fp fp-rounded gb"></i><span id="dnn_ctr613_MonetMenu_rptLanguage_ctl01_textLanguage">Anglų</span></a>
+                    </div>
+                
+                    <div class="language_row">
+                        <a id="dnn_ctr613_MonetMenu_rptLanguage_ctl02_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$rptLanguage$ctl02$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr613_MonetMenu_rptLanguage_ctl02_imgLanguage" class="fp fp-rounded ru"></i><span id="dnn_ctr613_MonetMenu_rptLanguage_ctl02_textLanguage">Rusų</span></a>
+                    </div>
+                
+                    <div class="language_row">
+                        <a id="dnn_ctr613_MonetMenu_rptLanguage_ctl03_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$rptLanguage$ctl03$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr613_MonetMenu_rptLanguage_ctl03_imgLanguage" class="fp fp-rounded pl"></i><span id="dnn_ctr613_MonetMenu_rptLanguage_ctl03_textLanguage">Lenkų</span></a>
+                    </div>
+                
+                    <div class="language_row">
+                        <a id="dnn_ctr613_MonetMenu_rptLanguage_ctl04_lnkLanguage" class="linkColumn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$rptLanguage$ctl04$lnkLanguage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><i id="dnn_ctr613_MonetMenu_rptLanguage_ctl04_imgLanguage" class="fp fp-rounded ee"></i><span id="dnn_ctr613_MonetMenu_rptLanguage_ctl04_textLanguage">Estų</span></a>
+                    </div>
+                
+        </div>
+        <div class="popUpFooter">
+            <input type="submit" name="dnn$ctr613$MonetMenu$AdmButton3" value="Отменить" onclick="ClosePopUP(this, &#39;LanguageSelectModalBehavior&#39;); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr613$MonetMenu$AdmButton3&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr613_MonetMenu_AdmButton3" class="admLinkButton admLinkButton danger outline" />
+        </div>
+    </div>
+
+	</div>
+
+
+<script src="../../js/MetisMenu/metisMenu.min.js"></script>
+<link rel="stylesheet" href="../../Portals/_default/Skins/BrandWorks/metisMenu.min.css">
+
+
+<script type='text/javascript'>
+    $(".vertical-nav-menu").metisMenu();
+
+    $(document).ready(function () {
+        $find('CompanySelectBehavior').add_shown(MobileCompanyPopUp_Shown);
+    });
+
+    function MobileCompanyPopUp_Shown(sender, e) {
+        var searchInput = $('#' + 'dnn_ctr613_MonetMenu_companySearch').children('input');
+        if (searchInput.length > 0) {
+            searchInput[0].focus();
+        }
+    }
+
+    function CompanyFilterInputMobile(event, textControl) {
+        if (event && event.keyCode == 13) {
+            SelectFirstCompany('CompanyListMobile');
+        }
+        else if (event && event.keyCode == 40) {
+            FocusFirstCompany('CompanyListMobile');
+        }
+        else {
+            FilterCompanyList(textControl, 'CompanyListMobile');
+        }
+    }
+</script>
+
+</div><!-- End_Module_613 --></div>
+</div></div>
+    </aside>
+    <div id="monet__body" class="monet__body active">
+        
+        <div id="dnn_ContentPane" class="monet__content"><div class="DnnModule DnnModule-MLedger DnnModule-501"><a name="501"></a><div id="dnn_ctr501_ContentPane"><!-- Start_Module_501 --><div id="dnn_ctr501_ModuleContent" class="DNNModuleContent ModMLedgerC">
+	
+
+
+
+
+
+<div id="dnn_ctr501_Ledger_newsP">
+		
+    <div class="newsHeader">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+        </svg>
+
+        <span id="dnn_ctr501_Ledger_Label1">Naujienos</span>
+    </div>
+    
+            <div class="newsWrapper">
+        
+            <div class="newsPanel">
+                <div class="newsPanelHeader">
+                    <span id="dnn_ctr501_Ledger_repeatNews_ctl01_lblDate">2023-06-04</span>
+                    <span id="dnn_ctr501_Ledger_repeatNews_ctl01_lblHeader">Papildoma informacija apie darbuotojus</span>
+                </div>
+                <div class="newsPanelText">
+                    <span id="dnn_ctr501_Ledger_repeatNews_ctl01_lblNew" class="shortName">Darbuotojo kortelėje galima įvesti darbuotojo vaikus ir medicininių apžiūrų datas, ši informacija atsispindės darbuotojo portale. Darbuotojai matys, kiek jiems priklauso tėvadienių, bei ar laikas atlikti medicininę apžiūrą.</span>
+                </div>
+            </div>
+        
+            </div>
+        
+
+	</div>
+
+
+
+
+
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.26.1/apexcharts.min.js"
+    type="text/javascript"></script>
+
+<script type="text/javascript">
+    let chartHeaders = document.getElementsByClassName("chartHeaderRight");
+
+    chartHeaders[1].innerHTML =
+        Math.round(
+            chartGryniejiPinigai.data[chartGryniejiPinigai.data.length - 1].replace(
+                ",",
+                "."
+            )
+        )
+            .toString()
+            .replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " €";
+</script>
+
+<script type="text/javascript">
+    const ctxChartPelnas = document.getElementById("chartPelnas");
+    const ctxChartPardavimai = document.getElementById("chartPardavimai");
+    const ctxChartSanaudos = document.getElementById("chartSanaudos");
+    const ctxChartGryniejiPinigai = document.getElementById(
+        "chartGryniejiPinigai"
+    );
+    const lt = { "name": "lt", "options": { "months": ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"], "shortMonths": ["Sau", "Vas", "Kov", "Bal", "Geg", "Bir", "Lie", "Rgp", "Rgs", "Spl", "Lap", "Grd"], "days": ["Sekmadienis", "Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienis", "Penktadienis", "Šeštadienis"], "shortDays": ["Sk", "Per", "An", "Tr", "Kt", "Pn", "Št"], "toolbar": { "exportToSVG": "Atsisiųsti SVG", "exportToPNG": "Atsisiųsti PNG", "exportToCSV": "Atsisiųsti CSV", "menu": "Menu", "selection": "Pasirinkimas", "selectionZoom": "Zoom: Pasirinkimas", "zoomIn": "Zoom: Priartinti", "zoomOut": "Zoom: Atitolinti", "pan": "Perkėlimas", "reset": "Atstatyti" } } };
+
+    function getMinMax(data) {
+        min = Number.MAX_VALUE;
+        max = Number.MIN_VALUE;
+        for (let i = 0; i < data.length; i++) {
+            num = parseInt(data[i].split(",")[0])
+            if (num < min) {
+                min = num;
+            }
+            if (num > max) {
+                max = num;
+            }
+        }
+        return [min, max];
+    }
+
+    function getColorStops(data) {
+        const minMax = getMinMax(data);
+        const min = minMax[0];
+        const max = minMax[1];
+        if (min >= 0) {
+            return [
+                {
+                    offset: 0,
+                    color: "#00e396",
+                    opacity: 1
+                },
+                {
+                    offset: 100,
+                    color: "#00e396",
+                    opacity: 0
+                },
+            ]
+        }
+        const d = Math.abs(min) + max
+        const mid = Math.floor(max / d  * 100);
+        return [
+            {
+                offset: 0,
+                color: "#00e396",
+                opacity: 1
+            },
+            {
+                offset: mid - 1,
+                color: "#00e396",
+                opacity: 0
+            },
+            {
+                offset: mid,
+                color: "#FFFFFFFF",
+                opacity: 0
+            },
+            {
+                offset: mid + 1,
+                color: "#ff4560",
+                opacity: 0
+            },
+            {
+                offset: 100,
+                color: "#ff4560",
+                opacity: 1
+            }
+        ]
+    }
+
+    const chartPelnasOptions = {
+        series: [
+            {
+                name: "Pelnas €",
+                data: chartPelnas.data,
+            },
+        ],
+        chart: {
+            locales: [lt],
+            defaultLocale: 'lt',
+            type: "bar",
+            height: 250,
+            toolbar: {
+                show: false,
+            },
+            zoom: {
+                enabled: false,
+            },
+        },
+        dataLabels: {
+            enabled: false,
+        },
+        stroke: {
+            curve: "smooth",
+        },
+        labels: chartPelnas.labels,
+        xaxis: {
+            type: "datetime",
+        },
+        yaxis: {
+            opposite: true,
+        },
+        legend: {
+            horizontalAlign: "right",
+        },
+        plotOptions: {
+            bar: {
+                columnWidth: '90%',
+                borderRadius: 3,
+                colors: {
+                    ranges: [
+                        {
+                            from: 0.1,
+                            to: 999999999,
+                            color: "#3ac47d",
+                        },
+                        {
+                            from: -999999999,
+                            to: 0,
+                            color: "#f73a24",
+                        },
+                    ],
+                },
+            },
+        },
+    };
+
+    const chartGryniejiPinigaiOptions = {
+        series: [
+            {
+                name: "Grynieji Pinigai €",
+                data: chartGryniejiPinigai.data,
+            },
+        ],
+        chart: {
+            locales: [lt],
+            defaultLocale: 'lt',
+            type: "area",
+            height: 250,
+            toolbar: {
+                show: false,
+            },
+            zoom: {
+                enabled: false,
+            },
+        },
+        dataLabels: {
+            enabled: false,
+        },
+        stroke: {
+            curve: "smooth",
+            width: 2.5
+        },
+        labels: chartGryniejiPinigai.labels,
+        xaxis: {
+            type: "datetime",
+        },
+        yaxis: {
+            opposite: true,
+        },
+        legend: {
+            horizontalAlign: "right",
+        },
+        colors: ["#00e396", "#2E93fA"],
+    };
+
+    const chartPardavimaiOptions = {
+        series: [
+            {
+                name: "Pardavimai €",
+                data: chartPardavimai.data,
+            },
+        ],
+        chart: {
+            locales: [lt],
+            defaultLocale: 'lt',
+            type: "area",
+            height: 250,
+            toolbar: {
+                show: false,
+            },
+            zoom: {
+                enabled: false,
+            },
+        },
+        dataLabels: {
+            enabled: false,
+        },
+        stroke: {
+            curve: "smooth",
+            width: 2.5
+        },
+        labels: chartPardavimai.labels,
+        xaxis: {
+            type: "datetime",
+        },
+        yaxis: {
+            opposite: true,
+        },
+        legend: {
+            horizontalAlign: "right",
+        },
+        colors: ["#FF9800", "#00e396", "#2E93fA"],
+    };
+
+    const chartSanaudosOptions = {
+        series: [
+            {
+                name: "Sanaudos €",
+                data: chartSanaudos.data,
+            },
+        ],
+        chart: {
+            locales: [lt],
+            defaultLocale: 'lt',
+            type: "area",
+            height: 250,
+            toolbar: {
+                show: false,
+            },
+            zoom: {
+                enabled: false,
+            },
+        },
+        dataLabels: {
+            enabled: false,
+        },
+        stroke: {
+            curve: "smooth",
+            width: 2.5
+        },
+        labels: chartSanaudos.labels,
+        xaxis: {
+            type: "datetime",
+        },
+        yaxis: {
+            opposite: true,
+        },
+        legend: {
+            horizontalAlign: "right",
+        },
+        colors: ["#ff4560", "#2E93fA"],
+    };
+
+    const apexChartPelnas = new ApexCharts(ctxChartPelnas, chartPelnasOptions);
+    const apexChartGryniejiPinigai = new ApexCharts(
+        ctxChartGryniejiPinigai,
+        chartGryniejiPinigaiOptions
+    );
+    const apexChartPardavimai = new ApexCharts(
+        ctxChartPardavimai,
+        chartPardavimaiOptions
+    );
+    const apexChartSanaudos = new ApexCharts(
+        ctxChartSanaudos,
+        chartSanaudosOptions
+    );
+    apexChartPelnas.render();
+    apexChartGryniejiPinigai.render();
+    apexChartSanaudos.render();
+    apexChartPardavimai.render();
+</script>
+
+</div><!-- End_Module_501 --></div>
+</div></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function pageLoad() {
+        VisibilityObserver(document.getElementsByClassName('modalPopup'));
+    }
+
+    function VisibilityObserver(modalPopups) {
+        const config = {
+            root: null, // Sets the framing element to the viewport
+            rootMargin: "0px",
+            threshold: 0.5
+        };
+
+        var hitCount = 0;
+        var modalPopUpCount = modalPopups.length;
+
+        observer = new IntersectionObserver((entries) => entries.forEach(({ intersectionRatio }) => {
+            if (intersectionRatio > 0) {
+                document.body.classList.add("modal-open");
+            }
+            else if (modalPopUpCount <= hitCount) {
+                document.body.classList.remove("modal-open");
+            }
+
+            hitCount++;
+        }), config);
+
+        for (var modalIndex = 0; modalIndex < modalPopups.length; modalIndex++) {
+            var modalPopup = modalPopups[modalIndex];
+            observer.observe(modalPopup);
+        }
+    }
+
+    function ClosePopUP(element, behaviorId) {
+        var modalPanel = element.closest('.modalPopup');
+        var modalBackgroundElement = $find(behaviorId)._backgroundElement;
+        ReplaceElementCssClass(modalPanel, "animate__fadeInDown", "animate__fadeOutUp");
+        ReplaceElementCssClass(modalBackgroundElement, "animate__fadeInHalf", "animate__fadeOutHalf");
+
+        setTimeout(() => {
+            $find(behaviorId).hide();
+
+            ReplaceElementCssClass(modalPanel, "animate__fadeOutUp", "animate__fadeInDown");
+            ReplaceElementCssClass(modalBackgroundElement, "animate__fadeOutHalf", "animate__fadeInHalf");
+        }, "200")
+    }
+
+    function ReplaceElementCssClass(element, classToRemove, classToAdd) {
+        if (element.classList.contains(classToRemove)) {
+            element.classList.remove(classToRemove);
+
+            element.classList.add(classToAdd);
+        }
+    }
+
+    function SetWizardActiveStepLinkButton(wizzardId, stepIndex) {
+        var wizzard = document.querySelector('#' + wizzardId);
+
+        var navigationSidebar = wizzard.querySelector('.sidebarWizardStyle');
+
+        var navigationButtons = navigationSidebar.querySelectorAll('.linkColumn');
+
+        for (var index = 0; index < stepIndex; index++) {
+            navigationButtons[index].classList.add('visited');
+        }
+
+        navigationButtons[stepIndex].classList.add('active');
+    }
+
+    function ReplaceLithuanianChars(text) {
+        text = text.replace('ą', 'a');
+        text = text.replace('č', 'c');
+        text = text.replace('ę', 'e');
+        text = text.replace('ė', 'e');
+        text = text.replace('į', 'i');
+        text = text.replace('š', 's');
+        text = text.replace('ų', 'u');
+        text = text.replace('ū', 'u');
+        text = text.replace('ž', 'z');
+
+        return text;
+    }
+
+    function ClickButtonOnEnter(event, inputID) {
+        if (event && event.keyCode == 13) {
+            var buttonToClick = document.querySelector('[id$=' + inputID + ']');
+            if (buttonToClick !== null) {
+                buttonToClick.focus();
+                buttonToClick.click();
+            }
+        }
+    }
+</script>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`dnn_current_userid`:`8752`,`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01"), document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01"), document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01"), document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01"), document.getElementById("dnn_ctr613_MonetMenu_companySearch_ctl01"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01 = document.all ? document.all["dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01"] : document.getElementById("dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01");
+dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01.controltovalidate = "dnn_ctr604_MonetHeader_CompanySelect_companySearch_textBox";
+dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01.errormessage = "Недопустимый символ";
+dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01.display = "Dynamic";
+dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01.validationexpression = "[^\\000-\\037]*";
+var dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01 = document.all ? document.all["dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01"] : document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01");
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01.controltovalidate = "dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_textBox";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01.errormessage = "Недопустимый символ";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01.display = "Dynamic";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01.validationexpression = "[^\\000-\\037]*";
+var dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01 = document.all ? document.all["dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01"] : document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01");
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01.controltovalidate = "dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_textBox";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01.errormessage = "Недопустимый символ";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01.display = "Dynamic";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01.validationexpression = "[^\\000-\\037]*";
+var dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01 = document.all ? document.all["dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01"] : document.getElementById("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01");
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01.controltovalidate = "dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_textBox";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01.errormessage = "Недопустимый символ";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01.display = "Dynamic";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01.validationexpression = "[^\\000-\\037]*";
+var dnn_ctr613_MonetMenu_companySearch_ctl01 = document.all ? document.all["dnn_ctr613_MonetMenu_companySearch_ctl01"] : document.getElementById("dnn_ctr613_MonetMenu_companySearch_ctl01");
+dnn_ctr613_MonetMenu_companySearch_ctl01.controltovalidate = "dnn_ctr613_MonetMenu_companySearch_textBox";
+dnn_ctr613_MonetMenu_companySearch_ctl01.errormessage = "Недопустимый символ";
+dnn_ctr613_MonetMenu_companySearch_ctl01.display = "Dynamic";
+dnn_ctr613_MonetMenu_companySearch_ctl01.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+dnn_ctr613_MonetMenu_companySearch_ctl01.validationexpression = "[^\\000-\\037]*";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        dnn.initializePasswordComparer({"firstElementSelector":"#dnn_ctr604_MonetHeader_TabContainer1_TabPanel1_Password_passwordContainer input[type=password]","secondElementSelector":".password-confirm","containerSelector":".dnnPassword","unmatchedCssClass":"unmatched","matchedCssClass":"matched","confirmPasswordUnmatchedText":"Password does not match","confirmPasswordMatchedText":"Password Matched"});
+
+document.getElementById('dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('dnn_ctr604_MonetHeader_CompanySelect_companySearch_ctl01'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.PopupControlBehavior, {"dynamicServicePath":"/Default.aspx","id":"lblCompanySelectBehavior","popupControlID":"dnn_ctr604_MonetHeader_CompanySelect_DropPanel","position":3}, null, null, $get("dnn_ctr604_MonetHeader_CompanySelect_lblCompanySelectContainer"));
+});
+
+document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_FirstName_ctl01'));
+}
+
+document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_LastName_ctl01'));
+}
+
+document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('dnn_ctr604_MonetHeader_TabContainer1_TabPanel2_UserData_Phone_ctl01'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_dnn_ctr604_MonetHeader_TabContainer1_TabPanel2"),"ownerID":"dnn_ctr604_MonetHeader_TabContainer1","wasLoadedOnce":false}, null, {"owner":"dnn_ctr604_MonetHeader_TabContainer1"}, $get("dnn_ctr604_MonetHeader_TabContainer1_TabPanel2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_dnn_ctr604_MonetHeader_TabContainer1_TabPanel1"),"ownerID":"dnn_ctr604_MonetHeader_TabContainer1","wasLoadedOnce":false}, null, {"owner":"dnn_ctr604_MonetHeader_TabContainer1"}, $get("dnn_ctr604_MonetHeader_TabContainer1_TabPanel1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabContainer, {"activeTabIndex":0,"clientStateField":$get("dnn_ctr604_MonetHeader_TabContainer1_ClientState"),"onDemand":false,"tabStripPlacement":0,"useVerticalStripPlacement":false}, null, null, $get("dnn_ctr604_MonetHeader_TabContainer1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.PopupControlBehavior, {"dynamicServicePath":"/Default.aspx","id":"dnn_ctr604_MonetHeader_ddPassword","popupControlID":"dnn_ctr604_MonetHeader_ProfilePanel","position":3}, null, null, $get("dnn_ctr604_MonetHeader_lblUserCOntainer"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.PopupControlBehavior, {"dynamicServicePath":"/Default.aspx","id":"dnn_ctr604_MonetHeader_HoverMenuExtender1","popupControlID":"dnn_ctr604_MonetHeader_DropPanelLanguage","position":3}, null, null, $get("dnn_ctr604_MonetHeader_lblLanguageContainer"));
+});
+
+document.getElementById('dnn_ctr613_MonetMenu_companySearch_ctl01').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('dnn_ctr613_MonetMenu_companySearch_ctl01'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"modalBackground animate__fadeInHalf","dynamicServicePath":"/Default.aspx","id":"CompanySelectBehavior","popupControlID":"dnn_ctr613_MonetMenu_CompanySelectPanel"}, null, null, $get("dnn_ctr613_MonetMenu_mobileCompanySelectContainer"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"modalBackground animate__fadeInHalf","dynamicServicePath":"/Default.aspx","id":"modalPasswordBehavior","popupControlID":"dnn_ctr613_MonetMenu_ProfilePanel"}, null, null, $get("dnn_ctr613_MonetMenu_mobileUserContainer"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"modalBackground animate__fadeInHalf","dynamicServicePath":"/Default.aspx","id":"LanguageSelectModalBehavior","popupControlID":"dnn_ctr613_MonetMenu_DropPanelLanguage"}, null, null, $get("dnn_ctr613_MonetMenu_mobileLanguageContainer"));
+});
+//]]>
+</script>
+</form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=232|DnnBodyProvider|50)--><!--CDF(Css|/Portals/_default/skins/brandworks/skin.css?cdv=232|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/0/portal.css?cdv=232|DnnPageHeaderProvider|35)--><!--CDF(Javascript|/js/dnn.js?cdv=232|DnnBodyProvider|12)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.jquery.extensions.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.jquery.tooltip.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.PasswordStrength.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Admin/Security/Scripts/dnn.PasswordComparer.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnn.PasswordStrength.css?cdv=232|DnnPageHeaderProvider|12)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.jquery.extensions.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.jquery.tooltip.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/scripts/dnn.PasswordStrength.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Admin/Security/Scripts/dnn.PasswordComparer.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnn.PasswordStrength.css?cdv=232|DnnPageHeaderProvider|12)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=232|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=232|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/dnn.jquery.js?cdv=232|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=232|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=232|DnnPageHeaderProvider|5)-->
+    
+</body>
+</html>
